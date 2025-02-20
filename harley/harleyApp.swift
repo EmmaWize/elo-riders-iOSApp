@@ -11,7 +11,8 @@ import SwiftUI
 struct harleyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            LogInView()
+            MainViewController()
         }
     }
 }

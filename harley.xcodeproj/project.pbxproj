@@ -7,18 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F6513212D5F841200CBE73E /* mapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6513202D5F841200CBE73E /* mapItem.swift */; };
+		9F6513232D5F948E00CBE73E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6513222D5F948E00CBE73E /* Location.swift */; };
+		9F6513282D5FAB0500CBE73E /* TopSerachBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6513272D5FAB0500CBE73E /* TopSerachBar.swift */; };
+		9F65132A2D5FAC1900CBE73E /* iconTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6513292D5FAC1900CBE73E /* iconTextView.swift */; };
+		9F65132C2D5FB06800CBE73E /* RideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65132B2D5FB06800CBE73E /* RideViewController.swift */; };
+		9F93E8C42D5E60F40015EC27 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93E8C32D5E60F40015EC27 /* HomeViewModel.swift */; };
+		9F93E8CA2D5E63C70015EC27 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93E8C92D5E63C70015EC27 /* mapView.swift */; };
+		9F93E8CC2D5E64A60015EC27 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93E8CB2D5E64A60015EC27 /* MapViewModel.swift */; };
+		9F9625512D5E34D200B7B4BC /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9625502D5E34D200B7B4BC /* RoundedCorners.swift */; };
+		9F9625542D5E35A800B7B4BC /* mainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9625532D5E35A800B7B4BC /* mainCell.swift */; };
+		9F9625562D5E489600B7B4BC /* homeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9625552D5E489600B7B4BC /* homeTab.swift */; };
 		9FA6736B2D5D3BC200724D0D /* harleyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6736A2D5D3BC200724D0D /* harleyApp.swift */; };
-		9FA6736D2D5D3BC200724D0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6736C2D5D3BC200724D0D /* ContentView.swift */; };
+		9FA6736D2D5D3BC200724D0D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6736C2D5D3BC200724D0D /* MainViewController.swift */; };
 		9FA6736F2D5D3BC500724D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA6736E2D5D3BC500724D0D /* Assets.xcassets */; };
 		9FA673722D5D3BC500724D0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA673712D5D3BC500724D0D /* Preview Assets.xcassets */; };
+		9FA6737B2D5D3D5B00724D0D /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6737A2D5D3D5B00724D0D /* TabBarItem.swift */; };
+		9FB4DE092D63685E0040B5EF /* CreateRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4DE082D63685E0040B5EF /* CreateRideViewController.swift */; };
+		9FB4DE0C2D6369570040B5EF /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4DE0B2D6369570040B5EF /* LogInView.swift */; };
+		9FB4DE0E2D636AF00040B5EF /* TwoColorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4DE0D2D636AF00040B5EF /* TwoColorLabel.swift */; };
+		9FB4DE102D636BF40040B5EF /* HDTextFileTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4DE0F2D636BF40040B5EF /* HDTextFileTitle.swift */; };
+		9FD869752D637BC500B8C7E6 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD869742D637BC500B8C7E6 /* LogInViewModel.swift */; };
+		9FD869782D637D5E00B8C7E6 /* UserInfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD869772D637D5E00B8C7E6 /* UserInfoStruct.swift */; };
+		9FD8697D2D637FB100B8C7E6 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD8697C2D637FB100B8C7E6 /* Profile.swift */; };
+		9FD8697F2D63818800B8C7E6 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD8697E2D63818800B8C7E6 /* Challenge.swift */; };
+		9FFCE73C2D65136200C72E78 /* HDTextFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCE73B2D65136200C72E78 /* HDTextFile.swift */; };
+		9FFCE73E2D652B3600C72E78 /* imageCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCE73D2D652B3600C72E78 /* imageCircle.swift */; };
+		9FFCE7602D66164500C72E78 /* CapsuleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCE75F2D66164500C72E78 /* CapsuleText.swift */; };
+		9FFCE7622D6619BC00C72E78 /* CreateRideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCE7612D6619BC00C72E78 /* CreateRideViewModel.swift */; };
+		9FFCE7642D661E2C00C72E78 /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCE7632D661E2C00C72E78 /* SegmentedControlView.swift */; };
+		9FFCE7672D66318800C72E78 /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCE7662D66318800C72E78 /* CustomPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F6513202D5F841200CBE73E /* mapItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapItem.swift; sourceTree = "<group>"; };
+		9F6513222D5F948E00CBE73E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		9F6513242D5F973E00CBE73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9F6513272D5FAB0500CBE73E /* TopSerachBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSerachBar.swift; sourceTree = "<group>"; };
+		9F6513292D5FAC1900CBE73E /* iconTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iconTextView.swift; sourceTree = "<group>"; };
+		9F65132B2D5FB06800CBE73E /* RideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideViewController.swift; sourceTree = "<group>"; };
+		9F93E8C32D5E60F40015EC27 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9F93E8C92D5E63C70015EC27 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
+		9F93E8CB2D5E64A60015EC27 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		9F9625502D5E34D200B7B4BC /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		9F9625532D5E35A800B7B4BC /* mainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainCell.swift; sourceTree = "<group>"; };
+		9F9625552D5E489600B7B4BC /* homeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeTab.swift; sourceTree = "<group>"; };
 		9FA673672D5D3BC200724D0D /* harley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = harley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA6736A2D5D3BC200724D0D /* harleyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harleyApp.swift; sourceTree = "<group>"; };
-		9FA6736C2D5D3BC200724D0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9FA6736C2D5D3BC200724D0D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9FA6736E2D5D3BC500724D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FA673712D5D3BC500724D0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FA6737A2D5D3D5B00724D0D /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		9FB4DE082D63685E0040B5EF /* CreateRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRideViewController.swift; sourceTree = "<group>"; };
+		9FB4DE0B2D6369570040B5EF /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		9FB4DE0D2D636AF00040B5EF /* TwoColorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColorLabel.swift; sourceTree = "<group>"; };
+		9FB4DE0F2D636BF40040B5EF /* HDTextFileTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTextFileTitle.swift; sourceTree = "<group>"; };
+		9FD869742D637BC500B8C7E6 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		9FD869772D637D5E00B8C7E6 /* UserInfoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoStruct.swift; sourceTree = "<group>"; };
+		9FD8697C2D637FB100B8C7E6 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		9FD8697E2D63818800B8C7E6 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		9FFCE73B2D65136200C72E78 /* HDTextFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTextFile.swift; sourceTree = "<group>"; };
+		9FFCE73D2D652B3600C72E78 /* imageCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCircle.swift; sourceTree = "<group>"; };
+		9FFCE75F2D66164500C72E78 /* CapsuleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleText.swift; sourceTree = "<group>"; };
+		9FFCE7612D6619BC00C72E78 /* CreateRideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRideViewModel.swift; sourceTree = "<group>"; };
+		9FFCE7632D661E2C00C72E78 /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
+		9FFCE7662D66318800C72E78 /* CustomPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +85,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F93E8C52D5E63170015EC27 /* Home Tab */ = {
+			isa = PBXGroup;
+			children = (
+				9F9625552D5E489600B7B4BC /* homeTab.swift */,
+				9F93E8C32D5E60F40015EC27 /* HomeViewModel.swift */,
+			);
+			path = "Home Tab";
+			sourceTree = "<group>";
+		};
+		9F93E8C62D5E63B10015EC27 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				9F93E8C92D5E63C70015EC27 /* mapView.swift */,
+				9F6513272D5FAB0500CBE73E /* TopSerachBar.swift */,
+				9F6513202D5F841200CBE73E /* mapItem.swift */,
+				9F93E8CB2D5E64A60015EC27 /* MapViewModel.swift */,
+				9F6513222D5F948E00CBE73E /* Location.swift */,
+				9F65132B2D5FB06800CBE73E /* RideViewController.swift */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		9F9625522D5E359C00B7B4BC /* DisplayItems */ = {
+			isa = PBXGroup;
+			children = (
+				9FB4DE0F2D636BF40040B5EF /* HDTextFileTitle.swift */,
+				9F9625502D5E34D200B7B4BC /* RoundedCorners.swift */,
+				9FFCE7662D66318800C72E78 /* CustomPickerView.swift */,
+				9F9625532D5E35A800B7B4BC /* mainCell.swift */,
+				9F6513292D5FAC1900CBE73E /* iconTextView.swift */,
+				9FFCE73B2D65136200C72E78 /* HDTextFile.swift */,
+				9FFCE73D2D652B3600C72E78 /* imageCircle.swift */,
+				9FFCE75F2D66164500C72E78 /* CapsuleText.swift */,
+				9FFCE7632D661E2C00C72E78 /* SegmentedControlView.swift */,
+			);
+			path = DisplayItems;
+			sourceTree = "<group>";
+		};
 		9FA6735E2D5D3BC200724D0D = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +142,17 @@
 		9FA673692D5D3BC200724D0D /* harley */ = {
 			isa = PBXGroup;
 			children = (
+				9F6513242D5F973E00CBE73E /* Info.plist */,
 				9FA6736A2D5D3BC200724D0D /* harleyApp.swift */,
-				9FA6736C2D5D3BC200724D0D /* ContentView.swift */,
+				9FD8697E2D63818800B8C7E6 /* Challenge.swift */,
+				9FD869792D637F9900B8C7E6 /* Profile */,
+				9FD869762D637D5100B8C7E6 /* userInfo */,
+				9FB4DE0A2D6369480040B5EF /* LogIn */,
+				9FB4DE072D63684A0040B5EF /* Create Ride */,
+				9FB4DE062D6367CA0040B5EF /* Main View */,
+				9F93E8C62D5E63B10015EC27 /* map */,
+				9F93E8C52D5E63170015EC27 /* Home Tab */,
+				9F9625522D5E359C00B7B4BC /* DisplayItems */,
 				9FA6736E2D5D3BC500724D0D /* Assets.xcassets */,
 				9FA673702D5D3BC500724D0D /* Preview Content */,
 			);
@@ -65,6 +165,50 @@
 				9FA673712D5D3BC500724D0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FB4DE062D6367CA0040B5EF /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				9FA6736C2D5D3BC200724D0D /* MainViewController.swift */,
+				9FA6737A2D5D3D5B00724D0D /* TabBarItem.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		9FB4DE072D63684A0040B5EF /* Create Ride */ = {
+			isa = PBXGroup;
+			children = (
+				9FB4DE082D63685E0040B5EF /* CreateRideViewController.swift */,
+				9FFCE7612D6619BC00C72E78 /* CreateRideViewModel.swift */,
+			);
+			path = "Create Ride";
+			sourceTree = "<group>";
+		};
+		9FB4DE0A2D6369480040B5EF /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				9FB4DE0B2D6369570040B5EF /* LogInView.swift */,
+				9FD869742D637BC500B8C7E6 /* LogInViewModel.swift */,
+				9FB4DE0D2D636AF00040B5EF /* TwoColorLabel.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		9FD869762D637D5100B8C7E6 /* userInfo */ = {
+			isa = PBXGroup;
+			children = (
+				9FD869772D637D5E00B8C7E6 /* UserInfoStruct.swift */,
+			);
+			path = userInfo;
+			sourceTree = "<group>";
+		};
+		9FD869792D637F9900B8C7E6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9FD8697C2D637FB100B8C7E6 /* Profile.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +281,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA6736D2D5D3BC200724D0D /* ContentView.swift in Sources */,
+				9F65132A2D5FAC1900CBE73E /* iconTextView.swift in Sources */,
+				9FFCE7642D661E2C00C72E78 /* SegmentedControlView.swift in Sources */,
+				9FFCE73E2D652B3600C72E78 /* imageCircle.swift in Sources */,
+				9F9625512D5E34D200B7B4BC /* RoundedCorners.swift in Sources */,
+				9F93E8CA2D5E63C70015EC27 /* mapView.swift in Sources */,
+				9FB4DE092D63685E0040B5EF /* CreateRideViewController.swift in Sources */,
+				9FA6736D2D5D3BC200724D0D /* MainViewController.swift in Sources */,
+				9F93E8C42D5E60F40015EC27 /* HomeViewModel.swift in Sources */,
+				9F9625562D5E489600B7B4BC /* homeTab.swift in Sources */,
+				9F93E8CC2D5E64A60015EC27 /* MapViewModel.swift in Sources */,
+				9FB4DE0E2D636AF00040B5EF /* TwoColorLabel.swift in Sources */,
 				9FA6736B2D5D3BC200724D0D /* harleyApp.swift in Sources */,
+				9FD8697D2D637FB100B8C7E6 /* Profile.swift in Sources */,
+				9FA6737B2D5D3D5B00724D0D /* TabBarItem.swift in Sources */,
+				9FFCE7602D66164500C72E78 /* CapsuleText.swift in Sources */,
+				9FFCE73C2D65136200C72E78 /* HDTextFile.swift in Sources */,
+				9FD869782D637D5E00B8C7E6 /* UserInfoStruct.swift in Sources */,
+				9FFCE7672D66318800C72E78 /* CustomPickerView.swift in Sources */,
+				9FD869752D637BC500B8C7E6 /* LogInViewModel.swift in Sources */,
+				9F9625542D5E35A800B7B4BC /* mainCell.swift in Sources */,
+				9FFCE7622D6619BC00C72E78 /* CreateRideViewModel.swift in Sources */,
+				9FD8697F2D63818800B8C7E6 /* Challenge.swift in Sources */,
+				9F65132C2D5FB06800CBE73E /* RideViewController.swift in Sources */,
+				9FB4DE0C2D6369570040B5EF /* LogInView.swift in Sources */,
+				9F6513282D5FAB0500CBE73E /* TopSerachBar.swift in Sources */,
+				9F6513232D5F948E00CBE73E /* Location.swift in Sources */,
+				9FB4DE102D636BF40040B5EF /* HDTextFileTitle.swift in Sources */,
+				9F6513212D5F841200CBE73E /* mapItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +444,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"harley/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = harley/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your current position.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,6 +458,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emm.harley;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,11 +477,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"harley/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = harley/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your current position.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +491,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emm.harley;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
