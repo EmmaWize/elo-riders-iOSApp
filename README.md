@@ -1,38 +1,38 @@
 # elo-riders-iOSApp
 Elo Riders iOS App
 
-Descripción
+Description
 
-Este repositorio contiene la prueba de concepto para la hackathon de Harley-Davidson. La aplicación utiliza un sistema basado en Elo e inteligencia artificial para filtrar eventos recientes y sugerir amigos según su nivel de experiencia.
+This repository contains the proof of concept for the Harley-Davidson hackathon. The application utilizes a system based on Elo and artificial intelligence to filter recent events and suggest friends based on their experience level.
 
-El proyecto está desarrollado en SwiftUI y sigue una arquitectura MVVM (Model-View-ViewModel) para una mejor organización y mantenimiento del código.
+The project is developed in SwiftUI and follows an MVVM (Model-View-ViewModel) architecture for better code organization and maintainability.
 
-Tecnologías Utilizadas
+Technologies Used
 
-SwiftUI: Interfaz de usuario declarativa y moderna.
+SwiftUI: Modern declarative user interface.
 
-MVVM: Patrón de arquitectura para separar la lógica de la interfaz.
+MVVM: Architectural pattern for separating logic from the interface.
 
-Elo Rating System: Algoritmo para clasificar y emparejar usuarios según su nivel.
+Elo Rating System: Algorithm for ranking and matching users based on their level.
 
-Inteligencia Artificial: Filtrado y recomendación de eventos y amigos.
+Artificial Intelligence: Filtering and recommending events and friends.
 
-Características
+Features
 
-Filtrado de eventos basado en relevancia y cercanía.
+Event filtering based on relevance and proximity.
 
-Sugerencias de amigos según el nivel de experiencia.
+Friend suggestions based on experience level.
 
-Diseño intuitivo y moderno utilizando SwiftUI.
+Intuitive and modern design using SwiftUI.
 
-Arquitectura escalable con MVVM.
+Scalable architecture with MVVM.
 
-Instalación
+Installation
 
-Clona el repositorio:
+Clone the repository:
 
 git clone git@github.com:EmmaWize/elo-riders-iOSApp.git
 
-Abre el proyecto en Xcode.
+Open the project in Xcode.
 
-Ejecuta la aplicación en un simulador o dispositivo físico.
+Run the application on a simulator or a physical device.
