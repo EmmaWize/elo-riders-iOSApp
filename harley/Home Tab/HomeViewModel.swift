@@ -21,30 +21,31 @@ class HomeViewModel: ObservableObject {
         loadEvents()
     }
     
-    func sortByProximity(to target: Double, items: [mainItem]) -> [mainItem] {
+    private func sortByProximity(to target: Double, items: [mainItem]) -> [mainItem] {
         return items.sorted { abs($0.elo - target) < abs($1.elo - target) }
     }
     
-    func loadEvents() {
-        fetchItems()
+    private func loadEvents() {
+        getMainItems()
     }
     
-    private func fetchItems() {
-        guard let url = URL(string: "https://run.mocky.io/v3/73684304-970f-4eee-8c79-9236f771c47d") else { return }
-        
-        URLSession.shared.dataTask(with: url) { data, response, error in
-            guard let data = data, error == nil else { return }
-            
-            do {
-                let decodedItems = try JSONDecoder().decode([mainItemResponce].self, from: data)
-                DispatchQueue.main.async {
-                    let items = decodedItems.compactMap{ mainItem.from(response: $0) }
-                    self.items = self.sortByProximity(to: storedUserInfo.share.userInfo.elo ?? 0.0, items: items)
-                }
-            } catch {
-                print("Decoding error:", error)
+    private func getMainItems() {
+        let url = "https://run.mocky.io/v3/73684304-970f-4eee-8c79-9236f771c47d"
+        NetworkManager.fetchData(from: url) { [weak self] (result: Result<[mainItemResponce], Error>) in
+            switch result {
+            case .success(let homeItems):
+                self?.setItems(homeItems: homeItems)
+            case .failure(let error):
+                print("Error fetching user info:", error)
             }
-        }.resume()
+        }
+    }
+    
+    private func setItems(homeItems: ([mainItemResponce])) {
+        DispatchQueue.main.async {
+            let items = homeItems.compactMap{ mainItem.from(response: $0) }
+            self.items = self.sortByProximity(to: storedUserInfo.share.userInfo.elo ?? 0.0, items: items)
+        }
     }
     
     private func transformImage(imageString: String) -> ImageResource {
