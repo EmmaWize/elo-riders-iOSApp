@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct UserInfo {
-    var name: String? = "Emma"
+struct UserInfo: Codable {
+    var name: String?
     var mail: String?
     var elo: Double?
 }

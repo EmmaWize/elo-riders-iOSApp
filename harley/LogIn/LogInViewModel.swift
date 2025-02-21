@@ -19,10 +19,26 @@ class LogInViewModel: ObservableObject {
         if !isFormValid {
             return
         }
-        // add some logic
-        storedUserInfo.share.setMail(mail: userName)
-        storedUserInfo.share.setName(name: "Emma")
-        storedUserInfo.share.setElo(elo: 1.1)
+        fetchItems()
         showingSheet.toggle()
+    }
+    
+    func fetchItems() {
+        guard let url = URL(string: "https://run.mocky.io/v3/8e2d8d29-f2ec-40d3-a3d1-63dfd0ecfcb7") else { return }
+        
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            guard let data = data, error == nil else { return }
+            
+            do {
+                let decodedItems = try JSONDecoder().decode(UserInfo.self, from: data)
+                DispatchQueue.main.async {
+                    storedUserInfo.share.setMail(mail: decodedItems.mail ?? "")
+                    storedUserInfo.share.setName(name: decodedItems.name ?? "")
+                    storedUserInfo.share.setElo(elo: decodedItems.elo ?? 0.0)
+                }
+            } catch {
+                print("Decoding error:", error)
+            }
+        }.resume()
     }
 }
